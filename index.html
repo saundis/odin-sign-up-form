@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style rel="stylesheet" href="./style.css"></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,7 +15,10 @@
             <img src="./images/odin-logo.png" alt="Odin Project logo">
             <h1 class="logo-name">ODIN</h1>
         </div>
-        <div class="image-credit"></div>
+        <div class="image-credit">
+            Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank" noopener noreferrer>Halie West</a>
+            on <a href="https://unsplash.com/" target="_blank" noopener noreferrer>Unsplash</a>
+        </div>
     </div>
     <div class="right">
         <div class="top-info">
@@ -25,22 +31,34 @@
                 You <span class="ital">know</span> you want to.
             </p>
         </div>
-        <form class="mid-info">
+        <form class="bot-right-info">
             <div class="mid-info">
                 <h3>Let's do this!</h3>
                 <div class="form-info">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="tel" id="phone-number" name="phone-number">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="confirm-password" id="confirm-password" name="confirm-password">
+                    <div class="input1">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="input2">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                    <div class="input3">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input4">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                    <div class="input5">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="input6">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
                 </div>
             </div>
             <div class="bottom-info">
